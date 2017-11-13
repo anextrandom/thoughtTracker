@@ -1,0 +1,47 @@
+{
+  "name": "nes-scaffold",
+  "version": "2.0.0",
+  "description": "Scaffold Node Express Sqlite app for quick development",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "./node_modules/nodemon/bin/nodemon.js src/app.js --exec 'npm run lint && node'",
+    "lint": "./node_modules/.bin/eslint **/*.js"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "sqlite",
+    "node express sqlite example",
+    "sqlite node example",
+    "sqlite express example",
+    "sqlite node scaffold",
+    "sqlite express scaffold",
+    "sqlite node express scaffold",
+    "sqlite node express joi JWT token "
+  ],
+  "author": "Git Faf <git.faf@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "joi": "*",
+    "cors": "*",
+    "morgan": "*",
+    "sqlite3": "*",
+    "express": "*",
+    "bluebird": "*",
+    "sequelize": "*",
+    "body-parser": "*",
+    "jsonwebtoken": "*",
+    "bcrypt-nodejs": "*",
+    "extended-logger": "*",
+    "node-path-choice": "*"
+  },
+  "devDependencies": {
+    "eslint": "*",
+    "nodemon": "*",
+    "eslint-plugin-node": "*",
+    "eslint-plugin-import": "*",
+    "eslint-plugin-promise": "*",
+    "eslint-config-standard": "*",
+    "eslint-plugin-standard": "*"
+  }
+}
